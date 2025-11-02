@@ -39,7 +39,7 @@ class LocationsViewModel: ObservableObject {
     private func updateMapRegion(location: Location) {
         withAnimation(.easeInOut) {
             mapRegion = MapCameraPosition.region(
-                MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
+                MKCoordinateRegion(center: location.coordinates,
                 span: mapSpan))
         }
     }
