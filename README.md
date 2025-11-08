@@ -33,6 +33,7 @@ Users can browse curated destinations, preview them via rich cards, and open det
 ## Screenshots
 
 The application presents a bottom preview card and a detailed sheet with imagery, description, and a mini-map (see the provided simulator captures).
+
 <img width="349" height="739" alt="image" src="https://github.com/user-attachments/assets/0500855d-d706-4adb-86ae-9666bf12ce27" />
 <img width="353" height="734" alt="image" src="https://github.com/user-attachments/assets/a6b8fe85-f2d5-4286-9339-00a046c9b04c" />
 
@@ -50,7 +51,7 @@ struct Location {
     let imageNames: [String]  // Corresponding to assets inside Assets.xcassets
     let link: String?         // Optional, used for "Read more on Wikipedia"
 }
-
+```
 +
 +## License
 +
